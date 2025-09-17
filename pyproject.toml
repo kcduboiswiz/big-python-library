@@ -10,9 +10,9 @@ requires-python = ">=3.8"
 dependencies = [
     "torch (==2.2.0)"
 ]
-urls = {
-    repository = "https://github.com/kcduboiswiz/big-python-library"
-}
+
+[project.urls]
+repository = "https://github.com/kcduboiswiz/big-python-library"
 
 
 [build-system]
