@@ -1,0 +1,17 @@
+[project]
+name = "big-python-library"
+version = "0.1.0"
+description = "This is an internal python library"
+authors = [
+    {name = "=",email = "kevin.c-dubois@wiz.io"}
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "torch (==2.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
