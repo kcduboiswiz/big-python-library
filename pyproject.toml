@@ -1,5 +1,5 @@
 [project]
-name = "big-python-library"
+name = "big_python_library"
 version = "0.1.0"
 description = "This is an internal python library"
 authors = [
@@ -10,6 +10,9 @@ requires-python = ">=3.8"
 dependencies = [
     "torch (==2.2.0)"
 ]
+urls = {
+    repository = "https://github.com/kcduboiswiz/big-python-library"
+}
 
 
 [build-system]
